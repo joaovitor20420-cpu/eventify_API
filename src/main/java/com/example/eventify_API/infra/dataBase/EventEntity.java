@@ -21,8 +21,12 @@ public class EventEntity {
    private String description;
    private String name;
    private String local;
-   private LocalDateTime init;
-   private LocalDateTime end;
+    @Column(name = "data_inicio")
+    private LocalDateTime init;
+    
+    @Column(name = "data_fim")
+    private LocalDateTime end;
    private Integer capacity;
+   @Enumerated(EnumType.STRING)
    private EventType type;
 }

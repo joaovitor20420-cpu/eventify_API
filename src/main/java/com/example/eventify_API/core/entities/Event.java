@@ -1,11 +1,12 @@
-package com.example.eventify_API.core.models;
+package com.example.eventify_API.core.entities;
 
 
 
+import com.example.eventify_API.core.Enuns.EventType;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public record Event(  UUID Id,
+public record Event(  Long Id,
          String name,
          String description,
          String local,

@@ -1,4 +1,4 @@
-package com.example.eventify_API.core.models;
+package com.example.eventify_API.core.Enuns;
 
 public enum EventType {
     Musica,

@@ -5,7 +5,8 @@ package com.example.eventify_API.core.entities;
 import com.example.eventify_API.core.Enuns.EventType;
 import java.time.LocalDateTime;
 
-public record Event(  Long Id,
+public record Event(
+         Long Id,
          String name,
          String description,
          String local,
